@@ -1,0 +1,154 @@
+ /* /* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+ 
+
+ @font-face {
+  font-family: outfit;
+  src: url(../public/Outfit-VariableFont_wght.ttf);
+ }  
+
+body{
+   margin: 0;
+   padding: 0;
+   background-color: #EEF7F2;
+}
+.main{
+   justify-content: space-between;
+   height: 50px;
+   background-color: rgb(255, 255, 255);
+   padding: 0.7% 12%; 
+   display: flex;
+   font-family: Outfit; 
+}
+.logo{
+   font-family: Outfit;
+   font-size: 35px;
+   margin-top: 6px;
+   margin-bottom: 8px;
+   color: rgb(63,94,251);
+}
+.menubar{
+   font-weight:normal;    
+   display: flex;
+   gap: 40px;
+} 
+.txt1{
+   margin: 1rem 0 0 0;
+   color: rgb(63,94,251);
+} 
+.txt{
+   margin: 1rem 0 0 0;
+   font-weight:400;
+}  
+.btn{
+   padding: 8px 15px;
+   margin: 7px 0 4px 0;
+   border-radius: 5px;
+   font-family: Outfit;
+   font-size: 15px;  
+}
+hr{
+   margin-top: 0;
+}        
+#text{
+   padding-top: 14%;
+}
+#btn{
+   margin-top: 12%;
+}
+.btn2{
+   padding: 9.600px 33.943px;
+   border-radius: 10px;
+   border-width: 0;
+   font-size: 15px;
+   font-weight: 400;
+   background-color: #724cf7;
+   color: white;
+}
+.btn3{
+   padding: 8px 24px;
+   margin-left: 20px;
+   border-radius: 10px;
+   font-family: Outfit;
+   font-size: 15px;
+   font-weight: 400;
+}
+.secondtext{
+  color: rgb(58, 57, 57);
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.bus{
+   display: flex;
+}
+.bus1{
+   margin-right: 10px;
+   color: #8a73d7;
+}
+h1{
+   margin: 0;
+   font-size: 56px;
+}
+.body{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12%;
+  font-family: Outfit;
+}
+.last{
+   min-height: 120px;
+  background-color: rgb(1,25,55);
+   padding: 1% 15% 0 15%;
+   font-family: Outfit;
+}
+.num1{
+   display: flex;
+   justify-content: space-between;
+}
+.name{ 
+   color:white;
+   margin: 0;
+}
+.num2{
+   display: flex;
+   justify-content: space-between;
+}
+#la1{
+   margin-top: 6px;
+}
+h2{
+   font-size: 35px;
+   margin-top: 6px;
+   margin-bottom: 8px;
+   color: #fff;
+}
+.imgd{
+  height: 75px;
+   width: 90px;
+}
+#ff{
+  display: flex;
+}
+.imgr{
+  margin: 5% 0 10% 0;
+}
+#Service{
+   height: 84vh;
+}
+.ser{
+   text-align: center;
+   margin-top: 8%;
+   color: black;
+}
+.par{
+   color: rgb(58, 57, 57);
+   text-align: center;
+   font-size: 15px;
+   font-weight: 400;
+}
+.box{
+   
+}
