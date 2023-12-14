@@ -149,6 +149,40 @@ h2{
    font-size: 15px;
    font-weight: 400;
 }
-.box{
-   
+.Row {
+   display: flex;
+   margin: 40px 20px 0px 0px;
+   position: absolute;
+ }
+ .Row > div {
+   background-color: white;
+   height: 180px;
+   width: 180px;
+   margin: 5px;
+   padding: 20px;
+   margin-left: 100px;
 }
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   width: 40%;
+   border-radius: 15px;
+ }
+ .card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ .container {
+   padding: 2px 16px;
+ }
+
+
+ .ser1{
+   color: rgb(63,94,251);
+   text-align: center;
+}
+ .par1{
+   color: black;
+   text-align: center;
+   /* font-size: 15px; */
+   font-weight: 400;
+ }
